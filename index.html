@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/global.css">
+    <link rel="stylesheet" href="./CSS/main.css">
     <title>Simple calculator</title>
 </head>
 <body>
     <header>
-        <p>Simple Calculator</p>
+        <h1>Simple Calculator</h1>
     </header>
 
     <div id="calculator">
@@ -23,7 +24,7 @@
                 <button>C</button>
                 <button>+/-</button>
                 <button>%</button>
-                <button>+</button>
+                <button class="math-operations">+</button>
             </div>
 
 
@@ -31,28 +32,28 @@
                 <button>1</button>
                 <button>2</button>
                 <button>3</button>
-                <button>-</button>
+                <button class="math-operations">-</button>
             </div>
 
             <div>
                 <button>4</button>
                 <button>5</button>
                 <button>6</button>
-                <button>×</button>
+                <button class="math-operations">×</button>
             </div>
             
             <div> 
                 <button>7</button>
                 <button>8</button>
                 <button>9</button>
-                <button>÷</button>
+                <button class="math-operations">÷</button>
             </div>
            
 
             <div>
                 <button>0</button>
                 <button>.</button>
-                <button>=</button>
+                <button id="equals">=</button>
             </div>
             
         </div>
@@ -60,9 +61,23 @@
     
     <footer>
         <p>Made by Nicole Santana</p>
-        <a href="">
-            <img src="./SVG/linkedin.svg" alt="">
-        </a>
+
+
+        <div id="links">
+            <a href="https://www.linkedin.com/in/nicole-teles-santana/">
+                <img src="./SVG/linkedin.svg" alt="">
+            </a>
+    
+            <a href="https://www.instagram.com/nicole_santana07_dev/">
+                <img src="./SVG/instagram.svg" alt="">
+            </a>
+    
+            <a href="https://twitter.com/NickSantana_dev">
+                <img src="./SVG/twitter.svg" alt="">
+            </a>
+
+        </div>
+
     </footer>
 </body>
 </html>

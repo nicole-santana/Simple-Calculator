@@ -1,0 +1,18 @@
+.math-operations {
+    background-color: var(--cyan);
+}
+
+#equals {
+    width: 10rem;
+    background-color: var(--dark-blue);
+    color: var(--grey);
+}
+
+#links {
+    justify-content: center;
+}
+
+#buttons {
+   
+    cursor: pointer;
+}
